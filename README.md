@@ -1,6 +1,6 @@
-# Website for the 2013 Scala Workshop (Scala'13)
+# Website for the 2014 Scala Workshop (Scala'14)
 
-Co-located with ECOOP'13. New acronym given to us by ECOOP: Scala 2013.
+Co-located with ECOOP'14. New acronym given to us by ECOOP: Scala 2014.
 
 ## Dependencies ##
 
