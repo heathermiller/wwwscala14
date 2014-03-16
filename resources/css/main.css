@@ -135,5 +135,23 @@ ul > li {
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  background-color: rgba(225, 21, 68, 0.5);
+  background-color: rgba(19, 63, 75, 0.8);
 }
+
+.scala {
+  font-family: "museo-slab",serif;
+  font-style: normal;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 36px;
+}
+
+.year {
+  font-family: "petala-pro",sans-serif;
+  font-style: italic;
+  font-weight: 100;
+  color: rgba(241, 254, 126, 1);
+  font-size: 36px;
+}
+
+
