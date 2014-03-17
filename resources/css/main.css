@@ -69,8 +69,7 @@ h3 {
 
 h4 {
   font-family: 'Open Sans', sans-serif;
-  text-transform: uppercase;
-  /*color: #888888;*/
+  text-transform: uppercase;s
 }
 
 h5 {
@@ -79,7 +78,6 @@ h5 {
 
 p {
   display: block;
-  /*color: #57676e;*/
   margin-before: 1em;
   margin-after: 1em;
   -webkit-margin-start: 0px;
@@ -88,7 +86,6 @@ p {
 
 li {
   line-height: 1.5em;
-  /*margin-bottom: 6px;*/
   color: #57676e;
   margin-bottom: 0.5em;
   -webkit-margin-start: 6px;
@@ -106,7 +103,7 @@ ul > li {
 }
 
 .splash {
-  position: absolute;
+  position: relative;
   background: url({{ site.baseurl }}/resources/img/uppsala.jpg) no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -124,7 +121,8 @@ ul > li {
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  background-color: rgba(241, 254, 126, 0.5);
+  background-color: rgba(241, 196, 15, 0.5);
+  /*background-color: rgba(241, 254, 126, 0.5);*/
 }
 
 .circle-blue {
@@ -139,24 +137,6 @@ ul > li {
   border-radius: 50%;
   background-color: rgba(19, 63, 75, 0.8);
 }
-
-/*.big-circle-blue {
-  position: relative;
-  z-index: -1;
-  left: -90px;
-  top: -95px;
-  width: 800px;
-  height: 800px;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  background-color: rgba(19, 63, 75, 0.4);
-}
-*/
-/*.circle-wrap {
-  position: relative;
-  top: -800px;
-}*/
 
 .scala2014 {
   text-align: center;
@@ -175,20 +155,28 @@ ul > li {
   font-family: "petala-pro",sans-serif;
   font-style: italic;
   font-weight: 100;
-/*  color: rgba(241, 254, 126, 1);*/
-  /*text-shadow: 1px 1px 0px rgba(19, 63, 75, 1);*/
   color: #E74C3C;
 }
 
 .tagline {
+  position: relative;
   font-family: "petala-pro",sans-serif;
-  font-style: italic;
-  font-weight: 400;
-  margin-left: 460px;
-  margin-top: -40px;
-  color: #ffffff;
-  font-size: 32px;
+  /*font-style: italic;*/
+  font-weight: 600;
+  color: #E74C3C;
+  /*letter-spacing: .1em;*/
+  text-transform: uppercase;
+  font-size: 28px;
   text-shadow: 1px 1px 0px rgba(19, 63, 75, 1);
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: right;
+  line-height: 0.9em;
+}
+
+.tag {
+  color: #E74C3C;
 }
 
 .annual {
@@ -198,7 +186,6 @@ ul > li {
   font-weight: 100;
   font-size: 24px;
   color: #95A5A6;
-  /*color: rgba(241, 254, 126, 1);*/
   text-align: center;
 }
 
@@ -206,12 +193,11 @@ ul > li {
   font-family: "petala-pro",sans-serif;
   font-style: italic;
   font-weight: 400;
-  /*color: #E74C3C;*/
   padding-top: 34px;
   padding-left: 80px;
   font-size: 36px;
-  color: rgba(241, 254, 126, 1);
-  /*text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.4);*/
+  color: rgba(241, 196, 15, 1);
+  /*color: rgba(241, 254, 126, 1);*/
 }
 
 .location {
@@ -222,7 +208,6 @@ ul > li {
   color: #ffffff;
   letter-spacing: .1em;
   font-size: 18px;
-  /*text-align: center;*/
   padding-top: 14px;
   padding-left: 80px;
 }
@@ -233,13 +218,11 @@ ul > li {
   height: 380px;
   width: 235px;
   background-image: url('{{ site.baseurl }}/resources/img/sweden.png');
-  /*background-size: 310px 500px;*/
 }
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
   .sweden {
     background-image: url('{{ site.baseurl }}/resources/img/sweden@2x.png');
-    /*background-size: 619px 1000px;*/
     background-size: 235px 380px;
   }
 }
@@ -270,7 +253,7 @@ ul > li {
   background: transparent;
   border: 3px solid #E74C3C;
   border-radius: 50%;
-  padding: 2px;
+  padding: 1px;
   box-sizing: border-box;
 }
 .map-marker {
@@ -304,4 +287,67 @@ ul > li {
 
 .coloc a:hover {
   color: #E74C3C;
+}
+
+.join-us-title {
+  position: relative;
+  font-family: "petala-pro",sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  color: #fff;
+  font-size: 32px;
+  line-height: 1em;
+  margin-top: 140px;
+  margin-bottom: 18px;
+  /*text-align: center;*/
+}
+
+.join-us {
+  position: relative;
+  font-family: "petala-pro",sans-serif;
+  font-style: italic;
+  font-weight: 100;
+  color: #95A5A6;
+}
+
+.amp {
+  font-family: Baskerville, 'Goudy Old Style', Palatino, 'Book Antiqua', serif;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.scala-font {
+  font-family: "museo-slab",serif;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.red {
+  color: #E74C3C;
+}
+
+.blue-stripe {
+  background-color: #073642;
+  padding-bottom: 60px;
+}
+
+.yellow-stripe {
+  margin-top: -50px;
+  min-height: 400px;
+  /*background-color: #F1FE7E;*/
+  /*background-color: rgba(241, 254, 126, 1);*/
+  /*background-color: #F1C40F;*/
+  background-color: rgba(241, 196, 15, 1);
+}
+
+.arrow-down {
+  z-index: 2;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 50px solid #073642;
 }
