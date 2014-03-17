@@ -20,10 +20,9 @@ body {
 
 a:link, a:visited {
   text-decoration: none;
-  /*color: #444;*/
-  color: #41B7D8;
+  color: #E74C3C;
   font-weight: 600;
-  border-bottom: 2px solid #dcdcdc;
+  border-bottom: 2px solid rgba(149, 165, 166, 0.5);
   -webkit-transition: color .1s ease-in;
   -moz-transition: color .1s ease-in;
   -ms-transition: color .1s ease-in;
@@ -33,7 +32,7 @@ a:link, a:visited {
 
 a:hover {
   text-decoration: none;
-  color: #E16147;
+  color: #18444F;
   -webkit-transition: color .2s ease-in;
   -moz-transition: color .2s ease-in;
   -ms-transition: color .2s ease-in;
@@ -164,7 +163,7 @@ ul > li {
 
 .tagline {
   font-family: "petala-pro",sans-serif;
-  font-style: normal;
+  font-style: italic;
   font-weight: 400;
   margin-left: 460px;
   margin-top: -40px;
@@ -292,3 +291,27 @@ ul > li {
   margin: 1%;
 }
 
+.coloc {
+  width: 120px;
+  position: relative;
+  top: -182px;
+  left: 110px;
+  font-family: "petala-pro",sans-serif;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 20px;
+  color: #95A5A6;
+  line-height: 0.9em;
+  letter-spacing: -0.06em;
+  text-align: right;
+}
+
+.coloc a:link, .coloc a:visited {
+  /*border: none;*/
+  font-weight: 100;
+  color: #95A5A6;
+}
+
+.coloc a:hover {
+  color: #E74C3C;
+}
