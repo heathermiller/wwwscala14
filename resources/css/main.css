@@ -118,6 +118,8 @@ ul > li {
 
 .circle-yellow {
   z-index: 1;
+  /*margin-left: 260px;*/
+  margin-top: 20px;
   width: 200px;
   height: 200px;
   -moz-border-radius: 50%;
@@ -126,16 +128,22 @@ ul > li {
   background-color: rgba(241, 254, 126, 0.5);
 }
 
-.circle-red {
+.circle-blue {
   z-index: 0;
-  margin-left: 100px;
-  margin-top: -200px;
-  width: 200px;
-  height: 200px;
+  margin-left: 60px;
+  margin-top: -160px;
+  width: 500px;
+  height: 500px;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
   background-color: rgba(19, 63, 75, 0.8);
+}
+
+.scala2014 {
+  text-align: center;
+  padding-top: 100px;
+  font-size: 70px;
 }
 
 .scala {
@@ -143,7 +151,6 @@ ul > li {
   font-style: normal;
   font-weight: 800;
   color: #ffffff;
-  font-size: 36px;
 }
 
 .year {
@@ -151,7 +158,14 @@ ul > li {
   font-style: italic;
   font-weight: 100;
   color: rgba(241, 254, 126, 1);
-  font-size: 36px;
 }
 
-
+.tagline {
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: -80px;
+  color: #ffffff;
+  font-size: 32px;
+  text-shadow: 1px 1px 0px rgba(19, 63, 75, 19);
+}
