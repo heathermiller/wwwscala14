@@ -12,7 +12,7 @@ html, body {
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #073642;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   line-height: 1.3em;
@@ -106,6 +106,7 @@ ul > li {
 }
 
 .splash {
+  position: absolute;
   background: url({{ site.baseurl }}/resources/img/uppsala.jpg) no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -116,8 +117,7 @@ ul > li {
 }
 
 .circle-yellow {
-  z-index: 1;
-  /*margin-left: 260px;*/
+  position: relative;
   margin-top: 20px;
   width: 200px;
   height: 200px;
@@ -128,6 +128,7 @@ ul > li {
 }
 
 .circle-blue {
+  position: relative;
   z-index: 0;
   margin-left: 60px;
   margin-top: -160px;
@@ -138,6 +139,24 @@ ul > li {
   border-radius: 50%;
   background-color: rgba(19, 63, 75, 0.8);
 }
+
+/*.big-circle-blue {
+  position: relative;
+  z-index: -1;
+  left: -90px;
+  top: -95px;
+  width: 800px;
+  height: 800px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background-color: rgba(19, 63, 75, 0.4);
+}
+*/
+/*.circle-wrap {
+  position: relative;
+  top: -800px;
+}*/
 
 .scala2014 {
   text-align: center;
@@ -225,34 +244,6 @@ ul > li {
   }
 }
 
-/*@font-face {
-    font-family: 'EntypoRegular';
-    src: url('{{ site.baseurl }}/resources/glyphs/entypo.eot');
-    src: url('{{ site.baseurl }}/resources/glyphs/entypo.eot?#iefix') format('embedded-opentype'),
-         url('{{ site.baseurl }}/resources/glyphs/entypo.woff') format('woff'),
-         url('{{ site.baseurl }}/resources/glyphs/entypo.ttf') format('truetype'),
-         url('{{ site.baseurl }}/resources/glyphs/entypo.svg#EntypoRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-.entypo {
-  font-family: 'EntypoRegular';
-  font-size: 2em;
-  font-weight: normal;
-  line-height: 0;
-}
-
-.entypo.map:before{ content:'\E724'; }
-
-.map-pin {
-  position: relative;
-  left: 316px;
-  top: -150px;
-  color: #E74C3C;
-  font-size: 90px;
-}*/
-
 .inner-third{
   height: 100%;
   width: 100%;
@@ -307,7 +298,6 @@ ul > li {
 }
 
 .coloc a:link, .coloc a:visited {
-  /*border: none;*/
   font-weight: 100;
   color: #95A5A6;
 }
