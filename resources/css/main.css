@@ -164,7 +164,8 @@ ul > li {
   font-family: "petala-pro",sans-serif;
   font-style: normal;
   font-weight: 400;
-  margin-top: -80px;
+  margin-left: 400px;
+  margin-top: -40px;
   color: #ffffff;
   font-size: 32px;
   text-shadow: 1px 1px 0px rgba(19, 63, 75, 1);
@@ -179,4 +180,28 @@ ul > li {
   color: #95A5A6;
   /*color: rgba(241, 254, 126, 1);*/
   text-align: center;
+}
+
+.dates {
+  font-family: "petala-pro",sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  color: #E74C3C;
+  padding-top: 34px;
+  padding-left: 80px;
+  font-size: 36px;
+  /*text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.4);*/
+}
+
+.location {
+  font-family: "petala-pro",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: .1em;
+  font-size: 18px;
+  /*text-align: center;*/
+  padding-top: 14px;
+  padding-left: 80px;
 }
