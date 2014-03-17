@@ -12,7 +12,8 @@ html, body {
 }
 
 body {
-  background-color: #073642;
+  /*background-color: #073642;*/
+  background-color: #fff;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   line-height: 1.3em;
@@ -121,7 +122,7 @@ ul > li {
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  background-color: rgba(241, 196, 15, 0.5);
+  background-color: rgba(241, 196, 15, 0.7);
   /*background-color: rgba(241, 254, 126, 0.5);*/
 }
 
@@ -158,13 +159,11 @@ ul > li {
   color: #E74C3C;
 }
 
-.tagline {
+/*.tagline {
   position: relative;
   font-family: "petala-pro",sans-serif;
-  /*font-style: italic;*/
   font-weight: 600;
   color: #E74C3C;
-  /*letter-spacing: .1em;*/
   text-transform: uppercase;
   font-size: 28px;
   text-shadow: 1px 1px 0px rgba(19, 63, 75, 1);
@@ -173,7 +172,7 @@ ul > li {
   margin-bottom: 40px;
   text-align: right;
   line-height: 0.9em;
-}
+}*/
 
 .tag {
   color: #E74C3C;
@@ -328,7 +327,8 @@ ul > li {
 
 .blue-stripe {
   background-color: #073642;
-  padding-bottom: 60px;
+  padding-bottom: 80px;
+  margin-top: -20px;
 }
 
 .yellow-stripe {
@@ -337,7 +337,9 @@ ul > li {
   /*background-color: #F1FE7E;*/
   /*background-color: rgba(241, 254, 126, 1);*/
   /*background-color: #F1C40F;*/
-  background-color: rgba(241, 196, 15, 1);
+  /*background-color: rgba(241, 196, 15, 1);*/
+  /*background-color: #fff;*/
+  background-color: #95A5A6;
 }
 
 .arrow-down {
@@ -349,5 +351,20 @@ ul > li {
   height: 0;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
+}
+
+.blue {
   border-top: 50px solid #073642;
+}
+
+.yellow {
+  border-top: 50px solid rgba(241, 196, 15, 1);
+}
+
+.white {
+  border-top: 50px solid #fff;
+}
+
+.gray {
+  border-top: 50px solid #95A5A6;
 }
