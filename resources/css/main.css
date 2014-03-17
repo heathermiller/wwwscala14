@@ -157,14 +157,16 @@ ul > li {
   font-family: "petala-pro",sans-serif;
   font-style: italic;
   font-weight: 100;
-  color: rgba(241, 254, 126, 1);
+/*  color: rgba(241, 254, 126, 1);*/
+  /*text-shadow: 1px 1px 0px rgba(19, 63, 75, 1);*/
+  color: #E74C3C;
 }
 
 .tagline {
   font-family: "petala-pro",sans-serif;
   font-style: normal;
   font-weight: 400;
-  margin-left: 400px;
+  margin-left: 460px;
   margin-top: -40px;
   color: #ffffff;
   font-size: 32px;
@@ -186,10 +188,11 @@ ul > li {
   font-family: "petala-pro",sans-serif;
   font-style: italic;
   font-weight: 400;
-  color: #E74C3C;
+  /*color: #E74C3C;*/
   padding-top: 34px;
   padding-left: 80px;
   font-size: 36px;
+  color: rgba(241, 254, 126, 1);
   /*text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.4);*/
 }
 
@@ -204,4 +207,21 @@ ul > li {
   /*text-align: center;*/
   padding-top: 14px;
   padding-left: 80px;
+}
+
+.sweden {
+  margin-top: -200px;
+  margin-left: 240px;
+  height: 380px;
+  width: 235px;
+  background-image: url('{{ site.baseurl }}/resources/img/sweden.png');
+  /*background-size: 310px 500px;*/
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .sweden {
+    background-image: url('{{ site.baseurl }}/resources/img/sweden@2x.png');
+    /*background-size: 619px 1000px;*/
+    background-size: 235px 380px;
+  }
 }
