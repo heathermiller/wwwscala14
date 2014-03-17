@@ -142,7 +142,7 @@ ul > li {
 
 .scala2014 {
   text-align: center;
-  padding-top: 100px;
+  padding-top: 20px;
   font-size: 70px;
 }
 
@@ -161,11 +161,22 @@ ul > li {
 }
 
 .tagline {
-  font-family: "proxima-nova",sans-serif;
+  font-family: "petala-pro",sans-serif;
   font-style: normal;
   font-weight: 400;
   margin-top: -80px;
   color: #ffffff;
   font-size: 32px;
-  text-shadow: 1px 1px 0px rgba(19, 63, 75, 19);
+  text-shadow: 1px 1px 0px rgba(19, 63, 75, 1);
+}
+
+.annual {
+  padding-top: 80px;
+  font-family: "petala-pro",sans-serif;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 24px;
+  color: #95A5A6;
+  /*color: rgba(241, 254, 126, 1);*/
+  text-align: center;
 }
