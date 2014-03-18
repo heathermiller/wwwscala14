@@ -74,41 +74,12 @@ Authors are encouraged to publish auxiliary material with their paper
 
 <div class="important-dates">
   <ul>
-    <li><strong>Abstract Submission</strong> &mdash; <i>April 30<sup>th</sup>, 2014</i></li>
-    <li><strong>Paper Submission</strong> &mdash; <i>May 7<sup>th</sup>, 2014</i></li>
-    <li><strong>Author Notification</strong> &mdash; <i>June 9<sup>th</sup>, 2014</i></li>
-    <li><strong>Camera-Ready</strong> &mdash; <i>June 23<sup>rd</sup>, 2014</i></li>
+    <li><strong>Abstract Submission</strong> - <i>April 30<sup>th</sup>, 2014</i></li>
+    <li><strong>Paper Submission</strong> - <i>May 7<sup>th</sup>, 2014</i></li>
+    <li><strong>Author Notification</strong> - <i>June 9<sup>th</sup>, 2014</i></li>
+    <li><strong>Camera-Ready</strong> - <i>June 23<sup>rd</sup>, 2014</i></li>
   </ul>
 </div>
-<!-- <div class="important-dates">
-  <table class="table table-curved">
-    <thead>
-      <tr>
-        <th>Important Dates</th>
-        <th></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><strong>Abstract Submission</strong></td>
-        <td>April 30<sup>th</sup>, 2014</td>
-      </tr>
-      <tr>
-        <td><strong>Paper Submission</strong></td>
-        <td>May 7<sup>th</sup>, 2014</td>
-      </tr>
-      <tr>
-        <td><strong>Author Notification</strong></td>
-        <td>June 9<sup>th</sup>, 2014</td>
-      </tr>
-      <tr>
-        <td><strong>Camera-Ready</strong></td>
-        <td>June 23<sup>rd</sup>, 2014</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
- -->
 
 <div class="centered">
   <strong>All deadlines are at 23:59 American Samoa time (UTC-11).</strong>
