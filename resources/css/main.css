@@ -535,17 +535,26 @@ ul > li {
 }
 
 .tile > .title > h1 {
+  font-family: "petala-pro",sans-serif;
+  font-style: normal;
+  font-weight: 400;
   border-color: #fff;
   text-transform: uppercase;
-  font-weight: 400;
-  font-style: normal;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.1em;
   font-size: 18px;
   text-shadow: none;
   top: 18px;
   background: #1E4853;
   padding:0 8px;
   margin-top: 8px;
+}
+
+.tile > .text {
+  margin-top: 18px;
+  font-family: "petala-pro",sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: #95A5A6;
 }
 
 .tile.research-papers {
@@ -580,15 +589,19 @@ ul > li {
 a.btn-outline-inverse {
   border-bottom: solid 1px #fff;
   color: #fff;
+  font-weight: 400;
 }
 
 .btn-outline-inverse {
+  font-family: "petala-pro",sans-serif;
+  font-style: normal;
+  font-weight: 400;
   color: #fff;
   background-color: transparent;
   border-color: #fff;
   text-transform: uppercase;
   font-weight: 600;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.1em;
   -webkit-transition: color .1s ease-in;
   -moz-transition: color .1s ease-in;
   -ms-transition: color .1s ease-in;
