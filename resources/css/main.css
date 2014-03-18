@@ -522,6 +522,10 @@ ul > li > strong {
   border-bottom: 3px solid rgba(149, 165, 166, 0.4);
 }
 
+.format h1 {
+  color: #fff;
+}
+
 .format .title > h1 {
   display:inline-block;
   font-family: "petala-pro",sans-serif;
@@ -533,6 +537,7 @@ ul > li > strong {
   top: 26px;
   background:#073642;
   padding:0 12px;
+  color: #fff;
 }
 
 .format > .academic {
