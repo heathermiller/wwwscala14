@@ -771,3 +771,20 @@ a.btn-outline-inverse {
     background-size: 125px 125px;
   }
 }
+
+.papers-talks-due {
+  font-family: "petala-pro",sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  color: #E74C3C;
+  font-size: 22px;
+  /*margin-bottom: 4px;*/
+}
+
+.abstracts-due {
+  font-family: "petala-pro",sans-serif;
+  font-style: italic;
+  font-weight: 100;
+  color: #95A5A6;
+  margin-bottom: 22px;
+}
