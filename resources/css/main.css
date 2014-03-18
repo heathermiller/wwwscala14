@@ -865,7 +865,6 @@ a.btn-outline {
   font-weight: 600;
   color: #E74C3C;
   font-size: 22px;
-  /*margin-bottom: 4px;*/
 }
 
 .abstracts-due {
@@ -879,14 +878,8 @@ a.btn-outline {
 .panel-title {
   font-family: "petala-pro",sans-serif;
   font-style: normal;
-  /*font-style: italic;*/
-  /*font-weight: 400;*/
   font-weight: 600;
-  /*text-transform: uppercase;*/
-  /*letter-spacing: 0.06em;*/
-  /*color: #F39C12;*/
   color: #E74C3C;
-  /*color: #fff;*/
   text-align: center;
   font-size: 28px;
   line-height: 1em;
@@ -907,9 +900,6 @@ a.btn-outline {
   color: rgba(149, 165, 166, 1);
 }
 
-.panelist > b {
-  /*color: #fff;*/
-}
 .to-confirm, .to-confirm > b {
   color: rgba(149, 165, 166, 0.3);
 }
