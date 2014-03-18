@@ -360,7 +360,7 @@ ul > li {
 }
 
 .yellow {
-  border-top: 50px solid rgba(241, 196, 15, 1);
+  border-top: 50px solid rgba(243, 156, 18, 1);
 }
 
 .white {
@@ -372,7 +372,6 @@ ul > li {
 }
 
 .transp-blue {
-  margin-top: -100px;
   background-color: rgba(19, 63, 75, 0.2);
   min-height: 30px;
 }
@@ -403,4 +402,25 @@ ul > li {
 .inside-stripe {
   padding-top: 80px;
   padding-bottom: 40px;
+}
+
+.after-arrow {
+  margin-top: -100px;
+}
+
+.transp-yellow {
+  background-color: rgba(243, 156, 18, 0.2);
+  min-height: 30px;
+}
+
+.transp-yellow-arrow {
+  z-index: 1;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 100px solid rgba(243, 156, 18, 0.2);
 }
