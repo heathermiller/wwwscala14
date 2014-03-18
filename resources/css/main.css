@@ -509,6 +509,70 @@ ul > li {
 
 }
 
+.tile-wrapper {
+  position: relative;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.tile {
+  z-index: 3;
+  position: relative;
+  width: 260px;
+  min-height: 280px;
+  /*background-color: rgba(255, 255, 255, 0.1);*/
+  background-color: #1E4853;
+  color: #fff;
+  padding: 10px;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.4), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.4), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.4), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.tile > .title {
+  text-align: center;
+  border-bottom: 3px solid #E74C3C;
+}
+
+.tile > .title > h1 {
+  border-color: #fff;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.15em;
+  font-size: 18px;
+  text-shadow: none;
+  top: 18px;
+  background: #1E4853;
+  padding:0 8px;
+  margin-top: 8px;
+}
+
+.tile.research-papers {
+  height: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tile.student-talks {
+  z-index: 2;
+  position: absolute;
+  left: 0px;
+  margin-top: 20px;
+  height: 280px;
+}
+
+.tile.tool-demos {
+  z-index: 2;
+  position: absolute;
+  right: 0px;
+  margin-top: 20px;
+  height: 280px;
+}
+.format > .academic > .tile > h1 {
+
+}
+
 .format > .industrial {
 
 }
