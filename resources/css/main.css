@@ -483,6 +483,7 @@ ul > li {
 }
 
 .format {
+  margin-top: -60px;
   color: #fff;
 }
 
@@ -510,4 +511,43 @@ ul > li {
 
 .format > .industrial {
 
+}
+
+a.btn-outline-inverse {
+  border-bottom: solid 1px #fff;
+  color: #fff;
+}
+
+.btn-outline-inverse {
+  color: #fff;
+  background-color: transparent;
+  border-color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  -webkit-transition: color .1s ease-in;
+  -moz-transition: color .1s ease-in;
+  -ms-transition: color .1s ease-in;
+  -o-transition: color .1s ease-in;
+  transition: color .1s ease-in;
+  -webkit-transition: background-color .1s ease-in;
+  -moz-transition: background-color .1s ease-in;
+  -ms-transition: background-color .1s ease-in;
+  -o-transition: background-color .1s ease-in;
+  transition: background-color .1s ease-in;
+}
+
+.btn-outline-inverse:hover {
+  background-color: #fff;
+  color: #073642;
+  -webkit-transition: color .2s ease-in;
+  -moz-transition: color .2s ease-in;
+  -ms-transition: color .2s ease-in;
+  -o-transition: color .2s ease-in;
+  transition: color .2s ease-in;
+  -webkit-transition: background-color .2s ease-in;
+  -moz-transition: background-color .2s ease-in;
+  -ms-transition: background-color .2s ease-in;
+  -o-transition: background-color .2s ease-in;
+  transition: background-color .2s ease-in;
 }
