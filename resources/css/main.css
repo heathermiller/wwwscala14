@@ -970,3 +970,7 @@ a.btn-outline {
     border-radius: 0 0 6px 0;
 }
 
+.scala-logo-footer a:link, .scala-logo-footer a:visited,
+.copyright a:link, .copyright a:visited {
+  border: none;
+}
