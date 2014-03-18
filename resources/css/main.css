@@ -415,7 +415,7 @@ ul > li {
   margin-bottom: 20px;
 }
 
-.sponsors-text {
+.sponsors-text, .need-sponsors {
   font-family: "petala-pro",sans-serif;
   font-style: italic;
   font-weight: 100;
@@ -423,10 +423,31 @@ ul > li {
   font-size: 24px;
   text-align: center;
   margin-bottom: 32px;
+  line-height: 1.3em;
+}
+
+.need-sponsors {
+  font-size: 32px;
+  margin-top: 32px;
+  color: #E74C3C;
+  font-weight: 600;
+}
+
+.sponsor-logos a:link, .sponsor-logos a:visited {
+  border: none;
 }
 
 .centered {
   text-align: center;
+}
+
+.contact {
+  margin-top: 20px;
+  color: #fff;
+}
+
+.contact a:hover {
+  color: #fff;
 }
 
 .copyright {
