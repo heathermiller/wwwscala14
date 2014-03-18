@@ -297,6 +297,10 @@ ul > li {
   color: #E74C3C;
 }
 
+.white {
+  color: #fff;
+}
+
 .blue-stripe {
   background-color: #073642;
   /*padding-bottom: 80px;*/
@@ -305,7 +309,7 @@ ul > li {
 
 .yellow-stripe {
   margin-top: -50px;
-  min-height: 400px;
+  /*min-height: 400px;*/
   /*background-color: #F1FE7E;*/
   /*background-color: rgba(241, 254, 126, 1);*/
   /*background-color: #F1C40F;*/
@@ -334,9 +338,9 @@ ul > li {
   border-top: 50px solid rgba(243, 156, 18, 1);
 }
 
-.white {
+/*.white {
   border-top: 50px solid #fff;
-}
+}*/
 
 .gray {
   border-top: 50px solid #95A5A6;
@@ -361,7 +365,7 @@ ul > li {
 
 .inside-stripe {
   padding-top: 100px;
-  padding-bottom: 40px;
+  padding-bottom: 100px;
 }
 
 .after-arrow {
@@ -465,4 +469,45 @@ ul > li {
   float: right;
   margin-top: 70px;
   margin-right: 20px;
+}
+
+.blue-text {
+  font-family: "petala-pro",sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 32px;
+  /*color: #fff;*/
+  color: #073642;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.format {
+  color: #fff;
+}
+
+.format .title {
+  text-align: center;
+  border-bottom: 3px solid rgba(149, 165, 166, 0.4);
+}
+
+.format .title > h1 {
+  display:inline-block;
+  font-family: "petala-pro",sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  text-transform: none;
+  font-size:36px;
+  position:relative;
+  top: 26px;
+  background:#073642;
+  padding:0 12px;
+}
+
+.format > .academic {
+
+}
+
+.format > .industrial {
+
 }
