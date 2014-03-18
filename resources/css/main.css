@@ -640,6 +640,24 @@ a.btn-outline-inverse {
   margin-top: 42px;
 }
 
+.organizers-title {
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+
+.organizer {
+  line-height: 0.9em;
+}
+
+.organizer a:link, .organizer a:visited {
+  border: none;
+  color: #E74C3C;
+}
+
+.organizer a:hover {
+  color: #fff;
+}
+
 .pc-wrap {
   width: 99%;
   position: relative;
@@ -660,6 +678,16 @@ a.btn-outline-inverse {
   color: #E74C3C;
 }
 
+.pc a:link, .pc a:visited {
+  color: #E74C3C;
+  border: none;
+}
+
+.pc a:hover {
+  color: #fff;
+  border: none;
+}
+
 .and-open-source {
   z-index: 2;
   position: relative;
@@ -670,4 +698,59 @@ a.btn-outline-inverse {
   font-size: 28px;
   color: rgba(255, 255, 255, 0.6);
   margin-top: 12px;
+}
+
+.circular {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 14px;
+  width: 125px;
+  height: 125px;
+  border-radius: 75px;
+  -webkit-border-radius: 75px;
+  -moz-border-radius: 75px;
+  }
+
+.circular.heather {
+  background-image: url('{{ site.baseurl }}/resources/img/heather.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.heather {
+    background-image: url('{{ site.baseurl }}/resources/img/heather@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.philipp {
+  background-image: url('{{ site.baseurl }}/resources/img/philipp.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.philipp {
+    background-image: url('{{ site.baseurl }}/resources/img/philipp@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.martin {
+  background-image: url('{{ site.baseurl }}/resources/img/martin.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.martin {
+    background-image: url('{{ site.baseurl }}/resources/img/martin@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.doug {
+  background-image: url('{{ site.baseurl }}/resources/img/doug.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.doug {
+    background-image: url('{{ site.baseurl }}/resources/img/doug@2x.png');
+    background-size: 125px 125px;
+  }
 }
