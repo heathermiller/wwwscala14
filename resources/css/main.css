@@ -13,7 +13,7 @@ html, body {
 
 body {
   background-color: #073642;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "petala-pro",sans-serif;
   font-size: 18px;
   line-height: 1.3em;
 }
@@ -40,29 +40,32 @@ a:hover {
   transition: color .2s ease-in;
 }
 
-::selection {
-  background: #fff;
-  color: #073642;
-}
-
 h1, h2, h3, h4, h5 {
   margin-top: 1em;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "petala-pro",sans-serif;
 }
 
 h1 {
-  color: #fff;
-  text-transform: uppercase;
-  text-shadow: 0px 2px 1px rgba(0,0,0,0.4);
+  color: #E74C3C;
+  font-family: "museo-slab",serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  /*text-transform: uppercase;*/
+  /*text-shadow: 0px 2px 1px rgba(0,0,0,0.4);*/
+
 }
 
 h2 {
-  color: #5a5a5a;
-  text-transform: uppercase;
-  text-shadow: 0 1px 1px #fff;
+  color: #073642;
+  font-style: italic;
+  font-weight: 600;
+  color: #073642;
+  /*text-transform: uppercase;*/
+  /*text-shadow: 0 1px 1px #fff;*/
 }
 
-h3 {
+/*h3 {
   color: #5A5A5A;
   text-transform: uppercase;
 }
@@ -74,7 +77,7 @@ h4 {
 
 h5 {
   font-size: 18px;
-}
+}*/
 
 p {
   display: block;
@@ -97,9 +100,13 @@ ul {
 }
 
 ul > li {
- color: #ffffff;
+ color: #073642;
  text-shadow: 0 1px 1px #000;
  margin-left: 24px;
+}
+
+ul > li > strong {
+  color: #E74C3C;
 }
 
 .splash {
@@ -269,7 +276,7 @@ ul > li {
   color: #E74C3C;
 }
 
-.tagline {
+.tagline, .page-title {
   position: relative;
   font-family: "petala-pro",sans-serif;
   font-style: italic;
@@ -279,6 +286,11 @@ ul > li {
   line-height: 1em;
   margin-top: 90px;
   margin-bottom: 90px;
+}
+
+.page-title {
+  margin-bottom: 32px;
+  color: #073642;
 }
 
 .amp {
@@ -305,6 +317,10 @@ ul > li {
   background-color: #073642;
   /*padding-bottom: 80px;*/
   /*margin-top: -20px;*/
+}
+
+.white-stripe {
+  background-color: #fff;
 }
 
 .yellow-stripe {
@@ -832,3 +848,60 @@ a.btn-outline-inverse {
 .to-confirm, .to-confirm > b {
   color: rgba(149, 165, 166, 0.3);
 }
+
+.content {
+  font-family: "petala-pro",sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  color: #073642;
+  padding-bottom: 42px;
+  line-height: 1.3em;
+}
+
+.important-dates {
+  position: relative;
+  width: 460px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.important-dates li {
+  margin-bottom: 0px;
+}
+
+.important-dates td > strong {
+  color: #E74C3C;
+}
+
+.table-curved {
+    border-collapse: separate;
+}
+.table-curved {
+    border: solid #ccc 1px;
+    border-radius: 6px;
+    border-left:0px;
+}
+.table-curved td, .table-curved th {
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+.table-curved th {
+    border-top: none;
+}
+.table-curved th:first-child {
+    border-radius: 6px 0 0 0;
+}
+.table-curved th:last-child {
+    border-radius: 0 6px 0 0;
+}
+.table-curved th:only-child{
+    border-radius: 6px 6px 0 0;
+}
+.table-curved tr:last-child td:first-child {
+    border-radius: 0 0 0 6px;
+}
+.table-curved tr:last-child td:last-child {
+    border-radius: 0 0 6px 0;
+}
+
