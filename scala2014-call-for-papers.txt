@@ -65,8 +65,8 @@ Concurrency, Distributed Programming, Tools, Experience Reports,
 Empirical Studies
 
 
-Student Talks
-=============
+Academic Student Talks
+======================
 
 In addition to regular papers and tool demos, we also solicit short student
 talks by bachelor/master/PhD students. A student talk is not accompanied by a
