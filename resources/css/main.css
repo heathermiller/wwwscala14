@@ -111,7 +111,7 @@ ul > li {
   -o-background-size: cover;
   background-size: cover;
   width: 100%;
-  height: 400px;
+  height: 500px;
 }
 
 .circle-yellow {
@@ -298,8 +298,8 @@ ul > li {
   color: #fff;
   font-size: 32px;
   line-height: 1em;
-  margin-top: 190px;
-  margin-bottom: 40px;
+  margin-top: 90px;
+  margin-bottom: 90px;
 }
 
 .join-us {
