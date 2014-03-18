@@ -50,10 +50,15 @@ In addition to regular papers and tool demos, we also solicit short student
 talks by bachelor/master/PhD students. A student talk is not accompanied by a
 paper (it is sufficient to submit a short abstract of the talk in plain text).
 Student talks are about 5-10 minutes long, presenting ongoing or completed
-research related to Scala, or announcing a project that would be of interest
-to the Scala community.
+research related to Scala.
 
 ## Open Source Talks
+
+We will also accept a limited number of short talks about open-source projects
+using Scala presented by contributors. An open-source talk is not accompanied
+by a paper (it is sufficient to submit a short abstract of the talk in plain
+text). Open-source talks are about 5-10 minutes long, presenting or announcing
+an open-source project that would be of interest to the Scala community.
 
 ## Proceedings
 
@@ -128,11 +133,18 @@ insights, or thoroughly comparing with related work. The Scala Workshop PC
 will approach Tool Demos in the same way as the PEPM Workshop PC, detailed in
 [PEPM’s Tool Paper Evaluation Criteria](http://www.program-transformation.org/PEPM14/ToolPaperAdvice).
 
-Student talks are not accompanied by papers. Therefore, it is sufficient to
-only submit a plain-text abstract. "Student Talks" should be marked as such
-with those words in the title at time of submission.
+Student talks and open source talks are not accompanied by papers. Therefore,
+it is sufficient to only submit a plain-text abstract. Both "Student Talks"
+and "Open Source Talks" should be marked as such with those words in the title
+at time of submission.
 
-The submission site is now closed to new submissions. Authors who have
+## Submission
+
+<div class="centered">
+  <a href="https://www.easychair.org/conferences/?conf=scala2014" class="btn btn-outline btn-lg">Submit a Paper or Talk</a>
+</div>
+
+<!-- The submission site is now closed to new submissions. Authors who have
 submitted papers may view or download their submission via EasyChair
 [https://www.easychair.org/conferences/?conf=scala2014](https://www.easychair.org/conferences/?conf=scala2014)
-
+ -->

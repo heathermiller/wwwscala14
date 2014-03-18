@@ -622,7 +622,7 @@ ul > li > strong {
 }
 
 a.btn-outline-inverse {
-  border-bottom: solid 1px #fff;
+  border-bottom: solid 3px #fff;
   color: #fff;
   font-weight: 400;
 }
@@ -634,6 +634,7 @@ a.btn-outline-inverse {
   color: #fff;
   background-color: transparent;
   border-color: #fff;
+  border-width: 3px;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   -webkit-transition: color .1s ease-in;
@@ -662,6 +663,50 @@ a.btn-outline-inverse {
   -o-transition: background-color .2s ease-in;
   transition: background-color .2s ease-in;
 }
+
+a.btn-outline {
+  border-bottom: solid 3px #073642;
+  color: #073642;
+  font-weight: 400;
+}
+
+.btn-outline {
+  font-family: "petala-pro",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #073642;
+  background-color: transparent;
+  border-color: #073642;
+  border-width: 3px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  -webkit-transition: color .1s ease-in;
+  -moz-transition: color .1s ease-in;
+  -ms-transition: color .1s ease-in;
+  -o-transition: color .1s ease-in;
+  transition: color .1s ease-in;
+  -webkit-transition: background-color .1s ease-in;
+  -moz-transition: background-color .1s ease-in;
+  -ms-transition: background-color .1s ease-in;
+  -o-transition: background-color .1s ease-in;
+  transition: background-color .1s ease-in;
+}
+
+.btn-outline:hover {
+  background-color: #073642;
+  color: #fff;
+  -webkit-transition: color .2s ease-in;
+  -moz-transition: color .2s ease-in;
+  -ms-transition: color .2s ease-in;
+  -o-transition: color .2s ease-in;
+  transition: color .2s ease-in;
+  -webkit-transition: background-color .2s ease-in;
+  -moz-transition: background-color .2s ease-in;
+  -ms-transition: background-color .2s ease-in;
+  -o-transition: background-color .2s ease-in;
+  transition: background-color .2s ease-in;
+}
+
 
 .pc-title, .organizers-title {
   font-family: "petala-pro",sans-serif;
@@ -855,7 +900,7 @@ a.btn-outline-inverse {
   font-weight: 300;
   font-size: 20px;
   color: #073642;
-  padding-bottom: 42px;
+  padding-bottom: 80px;
   line-height: 1.3em;
 }
 
