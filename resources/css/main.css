@@ -12,8 +12,7 @@ html, body {
 }
 
 body {
-  /*background-color: #073642;*/
-  background-color: #fff;
+  background-color: #073642;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   line-height: 1.3em;
@@ -157,25 +156,6 @@ ul > li {
   font-family: "petala-pro",sans-serif;
   font-style: italic;
   font-weight: 100;
-  color: #E74C3C;
-}
-
-/*.tagline {
-  position: relative;
-  font-family: "petala-pro",sans-serif;
-  font-weight: 600;
-  color: #E74C3C;
-  text-transform: uppercase;
-  font-size: 28px;
-  text-shadow: 1px 1px 0px rgba(19, 63, 75, 1);
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 40px;
-  text-align: right;
-  line-height: 0.9em;
-}*/
-
-.tag {
   color: #E74C3C;
 }
 
@@ -447,4 +427,21 @@ ul > li {
 
 .centered {
   text-align: center;
+}
+
+.copyright {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.2em;
+  position: relative;
+  float: left;
+}
+
+.scala-logo-footer {
+  position: relative;
+  float: right;
+  margin-top: 70px;
+  margin-right: 20px;
 }
