@@ -629,7 +629,7 @@ a.btn-outline-inverse {
   transition: background-color .2s ease-in;
 }
 
-.pc-title {
+.pc-title, .organizers-title {
   font-family: "petala-pro",sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -658,4 +658,16 @@ a.btn-outline-inverse {
 
 .pc > b {
   color: #E74C3C;
+}
+
+.and-open-source {
+  z-index: 2;
+  position: relative;
+  font-family: "petala-pro",sans-serif;
+  font-style: italic;
+  text-align: center;
+  font-weight: 300;
+  font-size: 28px;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 12px;
 }
