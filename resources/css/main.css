@@ -122,7 +122,8 @@ ul > li {
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  background-color: rgba(241, 196, 15, 0.7);
+  background-color: rgba(243, 156, 18, 0.6);
+  /*background-color: rgba(241, 196, 15, 0.7);*/
   /*background-color: rgba(241, 254, 126, 0.5);*/
 }
 
@@ -195,8 +196,9 @@ ul > li {
   padding-top: 34px;
   padding-left: 80px;
   font-size: 36px;
-  color: rgba(241, 196, 15, 1);
+  /*color: rgba(241, 196, 15, 1);*/
   /*color: rgba(241, 254, 126, 1);*/
+  color: rgba(243, 156, 18, 1);
 }
 
 .location {
@@ -296,9 +298,8 @@ ul > li {
   color: #fff;
   font-size: 32px;
   line-height: 1em;
-  margin-top: 140px;
-  margin-bottom: 18px;
-  /*text-align: center;*/
+  margin-top: 190px;
+  margin-bottom: 40px;
 }
 
 .join-us {
@@ -327,8 +328,8 @@ ul > li {
 
 .blue-stripe {
   background-color: #073642;
-  padding-bottom: 80px;
-  margin-top: -20px;
+  /*padding-bottom: 80px;*/
+  /*margin-top: -20px;*/
 }
 
 .yellow-stripe {
@@ -339,7 +340,8 @@ ul > li {
   /*background-color: #F1C40F;*/
   /*background-color: rgba(241, 196, 15, 1);*/
   /*background-color: #fff;*/
-  background-color: #95A5A6;
+  /*background-color: #95A5A6;*/
+  background-color: rgba(243, 156, 18, 1);
 }
 
 .arrow-down {
@@ -367,4 +369,38 @@ ul > li {
 
 .gray {
   border-top: 50px solid #95A5A6;
+}
+
+.transp-blue {
+  margin-top: -100px;
+  background-color: rgba(19, 63, 75, 0.2);
+  min-height: 30px;
+}
+
+.transp-blue-arrow {
+  z-index: 1;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 100px solid rgba(19, 63, 75, 0.2);
+}
+
+/*.spacer-top {
+  position: relative;
+  height: 70px;
+}
+
+.spacer-bottom {
+  position: relative;
+  height: 40px;
+}
+*/
+
+.inside-stripe {
+  padding-top: 80px;
+  padding-bottom: 40px;
 }
