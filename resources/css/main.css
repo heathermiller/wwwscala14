@@ -41,8 +41,8 @@ a:hover {
 }
 
 ::selection {
-  background: #BAC172;
-  color: #fff;
+  background: #fff;
+  color: #073642;
 }
 
 h1, h2, h3, h4, h5 {
@@ -483,7 +483,6 @@ ul > li {
 }
 
 .format {
-  margin-top: -60px;
   color: #fff;
 }
 
@@ -578,8 +577,15 @@ ul > li {
   margin-top: 20px;
   height: 280px;
 }
-.format > .academic > .tile > h1 {
 
+.format > h1 {
+  text-align: center;
+  font-family: "petala-pro",sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 36px;
+  text-shadow: none;
+  text-transform: none;
 }
 
 .format > .industrial > .text {
@@ -705,7 +711,7 @@ a.btn-outline-inverse {
   border: none;
 }
 
-.and-open-source {
+.and-open-source, .small-italic {
   z-index: 2;
   position: relative;
   font-family: "petala-pro",sans-serif;
@@ -787,4 +793,41 @@ a.btn-outline-inverse {
   font-weight: 100;
   color: #95A5A6;
   margin-bottom: 22px;
+}
+
+.panel-title {
+  font-family: "petala-pro",sans-serif;
+  font-style: normal;
+  /*font-style: italic;*/
+  /*font-weight: 400;*/
+  font-weight: 600;
+  /*text-transform: uppercase;*/
+  /*letter-spacing: 0.06em;*/
+  /*color: #F39C12;*/
+  color: #E74C3C;
+  /*color: #fff;*/
+  text-align: center;
+  font-size: 28px;
+  line-height: 1em;
+}
+
+.panelists {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
+  margin-bottom: 52px;
+  font-family: "petala-pro",sans-serif;
+  font-style: italic;
+  font-weight: 100;
+  position: relative;
+  width: 450px;
+  font-size: 22px;
+  color: rgba(149, 165, 166, 1);
+}
+
+.panelist > b {
+  /*color: #fff;*/
+}
+.to-confirm, .to-confirm > b {
+  color: rgba(149, 165, 166, 0.3);
 }
