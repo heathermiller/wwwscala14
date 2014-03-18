@@ -159,12 +159,27 @@ ul > li > strong {
   color: #ffffff;
 }
 
+.scala > a:link, .scala > a:visited, .scala > a:hover {
+  font-style: normal;
+  border: none;
+  color: #ffffff;
+}
+
 .year {
   font-family: "petala-pro",sans-serif;
   font-style: italic;
   font-weight: 100;
   color: #E74C3C;
 }
+
+
+.year > a:link, .year > a:visited, .year > a:hover {
+  font-style: italic;
+  font-weight: 100;
+  border: none;
+  color: #E74C3C;
+}
+
 
 .annual {
   padding-top: 80px;
