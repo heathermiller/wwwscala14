@@ -65,15 +65,24 @@ Concurrency, Distributed Programming, Tools, Experience Reports,
 Empirical Studies
 
 
-Student Talks
-=============
+Academic Student Talks
+======================
 
-In addition to regular papers and tool demos, we also solicit short
-student talks by PhD students. A student talk is not accompanied by
-a paper (it is sufficient to submit a short abstract of the talk in
-plain text). Student talks are about 5 minutes long, presenting
-ongoing or completed research related to Scala, or announcing a
-project that would be of interest to the Scala community.
+In addition to regular papers and tool demos, we also solicit short student
+talks by bachelor/master/PhD students. A student talk is not accompanied by a
+paper (it is sufficient to submit a short abstract of the talk in plain text).
+Student talks are about 5-10 minutes long, presenting ongoing or completed
+research related to Scala.
+
+
+Open Source Talks
+=================
+
+We will also accept a limited number of short talks about open-source projects
+using Scala presented by contributors. An open-source talk is not accompanied
+by a paper (it is sufficient to submit a short abstract of the talk in plain
+text). Open-source talks are about 5-10 minutes long, presenting or announcing
+an open-source project that would be of interest to the Scala community.
 
 
 Proceedings
@@ -95,15 +104,31 @@ Submission Details
 * Author Notification: June 9, 2014
 * Final Papers Due   : June 23, 2014
 
+All deadlines are at 23:59 American Samoa time (UTC-11).
+
 Submitted papers should be in portable document format (PDF), formatted using
 the standard ACM SIGPLAN two-column conference style (10pt format). Regular
 research papers must not exceed 10 pages, tool demonstration papers and short
 papers must not exceed 4 pages. "Tool Demos" and "Short Papers" should be
 marked as such with those words in the title at time of submission.
 
-Student talks are not accompanied by papers. Therefore, it is sufficient to
-only submit a plain-text abstract. "Student Talks" should be marked as such
-with those words in the title at time of submission.
+Note: "Short Papers" differ from "Tool Demos" in that "Short Papers" are
+approached as short research papers. "Short Papers" are expected to carry some
+new insights or contribution, and to compare with related work, as with any
+normal research paper. They're simply shorter versions of full research
+papers. "Tool Demos" on the other hand are about showcasing a well-developed,
+well-documented tool, live, before the workshop. "Tool Demo"s' corresponding
+papers are meant to contain an overview of the tool and methodology for the
+tool's use. Tool demo papers are less concerned about proving new research
+insights, or thoroughly comparing with related work. The Scala Workshop PC
+will approach Tool Demos in the same way as the PEPM Workshop PC, detailed in
+PEPM's Tool Paper Evaluation Criteria
+(see http://www.program-transformation.org/PEPM14/ToolPaperAdvice).
+
+Student talks and open-source talks are not accompanied by papers. Therefore,
+it is sufficient to only submit a plain-text abstract. Both "Student Talks"
+and "Open Source Talks" should be marked as such with those words in the title
+at time of submission.
 
 Submission is via EasyChair: https://www.easychair.org/conferences/?conf=scala2014
 
@@ -111,13 +136,15 @@ Submission is via EasyChair: https://www.easychair.org/conferences/?conf=scala20
 Program Committee
 =================
 
+(Partial list, other names are to be confirmed.)
+
 * Jonathan Aldrich, Carnegie Mellon University
 * Michael Armbrust, Databricks
 * Marius Eriksen, Twitter
 * Shriram Krishnamurthi, Brown University
 * Doug Lea, SUNY Oswego
 * Erik Meijer, Applied Duality/TU Delft
-* Bruno Oliveira, The University of Hong Kong
+* Bruno Oliveira, University of Hong Kong
 * Klaus Ostermann, University of Marburg
 * Aleksandar Prokopec, EPFL
 * Ilya Sergey, IMDEA Software Institute
@@ -126,6 +153,7 @@ Program Committee
 * Tom Van Cutsem, Alcatel-Lucent Bell Labs, Belgium
 * Peter Van Roy, Catholic University of Louvain
 * Damien Zufferey, MIT
+
 
 Links
 =====
