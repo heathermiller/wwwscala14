@@ -290,7 +290,7 @@ ul > li > strong {
 }
 
 .amp {
-  font-family: Baskerville, 'Goudy Old Style', Palatino, 'Book Antiqua', serif;
+  font-family: Baskerville, "BaskervilleLibre", 'Goudy Old Style', Palatino, 'Book Antiqua', serif;
   font-style: italic;
   font-weight: normal;
 }
@@ -909,4 +909,11 @@ a.btn-outline {
 .scala-logo-footer a:link, .scala-logo-footer a:visited,
 .copyright a:link, .copyright a:visited {
   border: none;
+}
+
+@font-face {
+    font-family: 'BaskervilleLibre';
+    src: url("{{ site.baseurl }}/resources/glyphs/LibreBaskerville-Italic.otf") format("opentype");
+    font-weight: normal;
+    font-style: italic;
 }
