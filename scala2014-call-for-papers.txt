@@ -140,6 +140,7 @@ Program Committee
 
 * Jonathan Aldrich, Carnegie Mellon University
 * Michael Armbrust, Databricks
+* Werner Dietl, University of Waterloo
 * Marius Eriksen, Twitter
 * Shriram Krishnamurthi, Brown University
 * Doug Lea, SUNY Oswego
@@ -153,6 +154,15 @@ Program Committee
 * Tom Van Cutsem, Alcatel-Lucent Bell Labs, Belgium
 * Peter Van Roy, Catholic University of Louvain
 * Damien Zufferey, MIT
+
+
+Organizers
+==========
+
+* Heather Miller, EPFL (Co-chair)
+* Philipp Haller, Typesafe (Co-chair)
+* Martin Odersky, EPFL
+* Doug Lea, SUNY Oswego
 
 
 Links
