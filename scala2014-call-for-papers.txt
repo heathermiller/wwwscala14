@@ -81,7 +81,7 @@ Open Source Talks
 We will also accept a limited number of short talks about open-source projects
 using Scala presented by contributors. An open-source talk is not accompanied
 by a paper (it is sufficient to submit a short abstract of the talk in plain
-text). Open-source talks are about 5-10 minutes long, presenting or announcing
+text). Open-source talks are about ~10 minutes long, presenting or announcing
 an open-source project that would be of interest to the Scala community.
 
 
