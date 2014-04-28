@@ -319,6 +319,17 @@ ul > li > strong {
   min-height: 40px;
   color: #fff;
   padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.red-stripe > .container > center > a:link, .red-stripe > .container > center > a:visited {
+  color: #073642;
+  font-style: italic;
+  border: 0;
+}
+
+.red-stripe > .container > center > a:hover {
+  color: #fff;
 }
 
 .white-stripe {
