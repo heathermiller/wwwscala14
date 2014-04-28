@@ -74,9 +74,9 @@ Authors are encouraged to publish auxiliary material with their paper
 
 <div class="important-dates">
   <ul>
-    <li><strong>Abstract Submission</strong> - <i>April 30<sup>th</sup>, 2014</i></li>
-    <li><strong>Paper Submission</strong> - <i>May 7<sup>th</sup>, 2014</i></li>
-    <li><strong>Author Notification</strong> - <i>June 9<sup>th</sup>, 2014</i></li>
+    <li><strong>Abstract Submission</strong> - <i>May 7<sup>th</sup>, 2014</i></li>
+    <li><strong>Paper Submission</strong> - <i>May 14<sup>th</sup>, 2014</i></li>
+    <li><strong>Author Notification</strong> - <i>June 16<sup>th</sup>, 2014</i></li>
     <li><strong>Camera-Ready</strong> - <i>June 23<sup>rd</sup>, 2014</i></li>
   </ul>
 </div>
