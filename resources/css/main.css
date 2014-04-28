@@ -314,6 +314,13 @@ ul > li > strong {
   /*margin-top: -20px;*/
 }
 
+.red-stripe {
+  background-color: #E74C3C;
+  min-height: 40px;
+  color: #fff;
+  padding-top: 8px;
+}
+
 .white-stripe {
   background-color: #fff;
 }
@@ -419,6 +426,7 @@ ul > li > strong {
 }
 
 .entypo.heart:before{ content:'\2665'; color: #E74C3C; font-style: normal;}
+.entypo.megaphone:before{ content:'\1F4E3'; color: #fff; font-style: normal;}
 
 .sponsors {
   font-family: "petala-pro",sans-serif;
@@ -921,3 +929,5 @@ a.btn-outline {
     font-style: italic;
 
 }
+
+.announcement
