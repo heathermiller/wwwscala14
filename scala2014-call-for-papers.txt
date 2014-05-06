@@ -99,10 +99,10 @@ Policy. Authors are encouraged to publish auxiliary material with their paper
 Submission Details
 ==================
 
-* Abstract Submission: April 30, 2014
-* Paper Submission   : May 7, 2014
-* Author Notification: June 9, 2014
-* Final Papers Due   : June 23, 2014
+* Abstract Submission  : May 7, 2014
+* Paper/Talk Submission: May 14, 2014
+* Author Notification  : June 16, 2014
+* Final Papers Due     : June 23, 2014
 
 All deadlines are at 23:59 American Samoa time (UTC-11).
 
@@ -135,8 +135,6 @@ Submission is via EasyChair: https://www.easychair.org/conferences/?conf=scala20
 
 Program Committee
 =================
-
-(Partial list, other names are to be confirmed.)
 
 * Jonathan Aldrich, Carnegie Mellon University
 * Michael Armbrust, Databricks
