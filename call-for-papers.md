@@ -82,7 +82,7 @@ Authors are encouraged to publish auxiliary material with their paper
 </div>
 
 <div class="centered">
-  <strong>All deadlines are at 23:59 American Samoa time (UTC-11).</strong>
+  <strong>All deadlines are at 23:59 Baker Island time (UTC-12).</strong>
 </div>
 <br/>
 
