@@ -112,14 +112,10 @@ at time of submission.
 ## Submission
 
 <div class="centered">
-  <a href="https://www.easychair.org/conferences/?conf=scala2014" class="btn btn-outline btn-lg">Submit a Paper or Talk</a>
+  The submission site is now closed to new submissions. 
+  <br/>Authors who have submitted papers may view or download their submission via EasyChair
+  <br/>
+  <a href="https://www.easychair.org/conferences/?conf=scala2014" class="btn btn-outline btn-lg">Submission Site</a>
 </div>
 
-<center></br>
-<iframe src="http://free.timeanddate.com/countdown/i458r4pg/n3399/cf11/cm0/cu4/ct0/cs0/ca0/cr0/ss0/cac000/cpc000/pcfff/tcfff/fs100/szw320/szh135/tatScala'14%20Submission%20Countdown%3A/tac000/tptTime%20since%20Event%20started%20in/tpc000/mac000/mpc000/iso2014-05-14T23:59:59" frameborder="0" width="291" height="57"></iframe>
-</center>
 
-<!-- The submission site is now closed to new submissions. Authors who have
-submitted papers may view or download their submission via EasyChair
-[https://www.easychair.org/conferences/?conf=scala2014](https://www.easychair.org/conferences/?conf=scala2014)
- -->
