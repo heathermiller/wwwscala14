@@ -1,0 +1,15 @@
+
+Information for title page:
+
+Date and location of the workshop:
+July 28--29, 2014
+Uppsala, Sweden
+
+
+Short name of the workshop:
+Scala 2014
+
+
+Full proceedings title:
+Proceedings of the 2014 Workshop on Scala
+
