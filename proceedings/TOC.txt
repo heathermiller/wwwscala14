@@ -1,0 +1,60 @@
+Table of Contents
+
+Scala Workshop 2014 Organization
+
+Research Papers
+
+Title: ScalaDyno: Making Name Resolution and Type Checking Fault-Tolerant
+Authors: Cédric Bastin, Vlad Ureche, Martin Odersky (EPFL)
+pages 1-5
+
+file: p1-bastin.pdf
+
+Title: Accelerating Parser Combinators with Macros
+Authors: Eric Béguet, Manohar Jonnalagedda (EPFL)
+pages 7-17
+
+file: p7-beguet.pdf
+
+Title: MorphScala: Safe Class Morphing with Macros
+Authors: Aggelos Biboudis (University of Athens), Eugene Burmako (EPFL)
+pages 18-22
+
+file: p18-biboudis.pdf
+
+Title: Typecasting Actors: from Akka to TAkka
+Authors: Jiansen He, Philip Wadler (University of Edinburgh), Philip Trinder (University of Glasgow)
+pages 23-33
+
+file: p23-he.pdf
+
+Title: Type-Directed Language Extension for Effectful Computations
+Author: Evgenii Kotelnikov (Chalmers University of Technology)
+pages 35-43
+
+file: p35-kotelnikov.pdf
+
+Title: SciFe: Scala Framework for Efficient Enumeration of Data Structures with Invariants
+Authors: Ivan Kuraj, Viktor Kuncak (EPFL)
+pages 45-49
+
+file: p45-kuraj.pdf
+
+Title: Containers and Aggregates, Mutators and Isolates for Reactive Programming
+Authors: Aleksandar Prokopec (EPFL), Philipp Haller (Typesafe, Inc.), Martin Odersky (EPFL)
+pages 51-61
+
+file: p51-prokopec.pdf
+
+Title: Real-Time Collaborative Scala Development with Clide
+Authors: Martin Ring (DFKI), Christoph Lüth (DFKI, Universität Bremen)
+pages 63-66
+
+file: p63-ring.pdf
+
+Title: Towards Virtual Traits in Scala
+Authors: Manuel Weiel, Ingo Maier, Sebastian Erdweg, Michael Eichberg, Mira Mezini (TU Darmstadt)
+pages 67-75
+
+file: p67-weiel.pdf
+
