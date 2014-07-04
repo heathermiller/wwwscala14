@@ -16,27 +16,40 @@ such as academic student talks, which are not accompanied by papers. Student
 talks are about 5-10 minutes long, presenting ongoing or completed research
 related to Scala. The 2014 edition of the Scala Workshop further innovates on
 the format by introducing a new category of "Open Source Talks". These are
-short talks about open-source projects using Scala presented by contributors.
-Like student talks, open source talks are not accompanied by papers.
+short talks about open-source projects using Scala presented by contributors
+to these projects. Like student talks, open source talks are not accompanied
+by papers.
 
 This year's call for papers attracted 14 submissions of regular research
-papers. Each of the papers was reviewed by at least 3 international reviewers.
-During a week-long electronic meeting, the Program Committee selected 9 papers
-for publication in these proceedings and for presentation at the workshop. In
-addition, we accepted 2 papers exclusively for presentation. Furthermore, the
-call for papers attracted 9 submissions of student talks. The organizers
-selected 7 student talks for presentation at the workshop.
+papers. Each of the papers was reviewed by at least 3 Program Committee
+members. During a week-long electronic meeting, the Program Committee selected
+9 papers for publication in these proceedings and for presentation at the
+workshop. In addition, the committee accepted 2 papers exclusively for
+presentation. Furthermore, the call for papers attracted 9 submissions of
+student talks. The organizers selected 7 student talks for presentation at the
+workshop.
 
 Finally, the program includes a panel discussion of international experts on
-``Scala & Next-Generation Languages: Language Design for Mainstream Software
+``Scala and Next-Generation Languages: Language Design for Mainstream Software
 Engineering.''
 
 Many people have helped make the Scala Workshop 2014 a reality. We would like
-to thank all the authors of the submitted papers and the Program Committee. We
-are very grateful for the fruitful collaboration with ECOOP. Special thanks go
-to Tobias Wrigstad, the ECOOP Organizing Chair, and to Nate Nystrom, the ECOOP
-Workshop Chair. Tobias helped us organize our sponsorship program and our
-student grant scheme, both of which were exceptionally successful this year.
-Nate helped us with the rest of the workshop organization, including these
-workshop proceedings.
+to thank all the authors of the submitted papers, and the Program Committee
+for their reviews, thoughtful discussion, and helpful feedback to the authors.
+We are very grateful for the fruitful collaboration with ECOOP. Special thanks
+go to Tobias Wrigstad, the ECOOP Organizing Chair, and to Nate Nystrom, the
+ECOOP Workshop Chair. Tobias helped us organize our sponsorship program and
+our student grant scheme, both of which were exceptionally successful this
+year. Nate helped us with the rest of the workshop organization, including
+these workshop proceedings. The EasyChair conference management system enabled
+the reviewing  process. Finally, thanks to Typesafe, SoundCloud, Goldman
+Sachs, and innoQ for sponsoring the workshop.
+
+Heather Miller
+Scala 2014 Program Co-chair
+EPFL, Switzerland
+
+Philipp Haller
+Scala 2014 Program Co-chair
+Typesafe, Switzerland
 
