@@ -8,4 +8,4 @@ Front Matter
 
 - Table of Contents (file: TOC.txt)
 
-- Scala Workshop 2014 Organization (Program chairs, Program Committee)
+- Scala Workshop 2014 Organization (file: organization.txt)
