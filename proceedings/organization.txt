@@ -4,8 +4,8 @@ Front Matter
 
 - ACM copyright page
 
-- Chairs' Welcome
+- Chairs' Welcome (file: foreword.txt)
 
-- Table of Contents
+- Table of Contents (file: TOC.txt)
 
 - Scala Workshop 2014 Organization (Program chairs, Program Committee)
