@@ -14,7 +14,7 @@ Program Committee:     Jonathan Aldrich, Carnegie Mellon University, USA
                        Marius Eriksen, Twitter, USA
                        Shriram Krishnamurthi, Brown University, USA
                        Doug Lea, SUNY Oswego, USA
-                       Erik Meijer, Applied Duality, USA and TU Delft, The Netherlands
+                       Erik Meijer, Applied Duality, USA and TU Delft, Netherlands
                        Bruno Oliveira, The University of Hong Kong, Hong Kong
                        Klaus Ostermann, University of Marburg, Germany
                        Aleksandar Prokopec, EPFL, Switzerland
