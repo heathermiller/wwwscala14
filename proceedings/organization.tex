@@ -1,0 +1,142 @@
+% \documentclass[a4paper]{memoir}
+\documentclass[10pt]{book}
+
+\usepackage{xspace}
+\usepackage{graphicx}
+\usepackage[normalem]{ulem} % \emph should italicize, not underline
+\usepackage{microtype}
+\usepackage{tocloft}
+\usepackage{times}
+
+\usepackage{etoolbox}% http://ctan.org/pkg/etoolbox
+\makeatletter
+% \patchcmd{<cmd>}{<search>}{<replace>}{<success>}{<failure>}
+\patchcmd{\@makechapterhead}{\huge}{\large}{}{}% for \chapter
+\patchcmd{\@makechapterhead}{\Huge}{\large}{}{}% for \chapter
+\patchcmd{\@makeschapterhead}{\Huge}{\large}{}{}% for \chapter*
+\makeatother
+
+\usepackage[margin={1.5in,1in}]{geometry}
+
+\title{}
+% \subtitle{4th Workshop on Scala with ECOOP'13, July 2nd 2013, Montpellier, France}
+
+\date{}
+
+\newcommand{\papertitle}[2]{\noindent \textbf{#1} \dots #2\\}
+\newcommand{\paperauthor}[1]{by #1\\[2em]}
+
+% \renewcommand*{\titlepagestyle}{empty}
+
+\pagestyle{empty}
+\usepackage{hyperref}
+\hypersetup{
+   a4paper,
+   colorlinks,
+   urlcolor=blue,
+   citecolor=blue,
+   linkcolor=blue,
+   pdfauthor = {Damien Cassou},
+}
+
+\begin{document}
+\thispagestyle{empty}
+
+% \maketitle
+
+{\centering \LARGE \bf Scala Workshop 2014 Organization\par}
+
+\vspace{0.5cm}
+
+\begin{table}[ht]
+\begin{minipage}[b]{0.35\linewidth}\centering
+\begin{tabular}{r}
+{\em Program Chairs:}\\
+~\\
+~\\
+{\em Organizing Committee:}\\
+~\\
+~\\
+~\\
+~\\
+{\em Program Committee:}\\
+~\\
+~\\
+~\\
+~\\
+~\\
+~\\
+~\\
+~\\
+~\\
+~\\
+~\\
+~\\
+~\\
+~\\
+~\\
+\end{tabular}
+\end{minipage}
+\hspace{0.5cm}
+\begin{minipage}[b]{0.55\linewidth}
+\centering
+\begin{tabular}{l}
+Heather Miller (EPFL, Switzerland)\\
+Philipp Haller (Typesafe, Switzerland)\\
+~\\
+Heather Miller (EPFL, Switzerland)\\
+Philipp Haller (Typesafe, Switzerland)\\
+Martin Odersky (EPFL, Switzerland)\\
+Doug Lea (SUNY Oswego, USA)\\
+~\\
+Jonathan Aldrich, Carnegie Mellon University, USA\\
+Michael Armbrust, Databricks, USA\\
+Werner Dietl, University of Waterloo, Canada\\
+Marius Eriksen, Twitter, USA\\
+Shriram Krishnamurthi, Brown University, USA\\
+Doug Lea, SUNY Oswego, USA\\
+Erik Meijer, Applied Duality, USA and TU Delft, Netherlands\\
+Bruno Oliveira, The University of Hong Kong, Hong Kong\\
+Klaus Ostermann, University of Marburg, Germany\\
+Aleksandar Prokopec, EPFL, Switzerland\\
+Ilya Sergey, IMDEA Software Institute, Spain\\
+Philippe Suter, IBM Research, USA\\
+Sam Tobin-Hochstadt, Indiana University, USA\\
+Tom Van Cutsem, Alcatel-Lucent Bell Labs, Belgium\\
+Peter Van Roy, Catholic University of Louvain, Belgium\\
+Damien Zufferey, MIT, USA\\
+\end{tabular}
+\end{minipage}
+\end{table}
+
+% \large \textbf{Scala 2014 Organization} \cftdotfill 0 vi
+% \normalsize
+
+% \vspace{0.5cm}
+% \large \textbf{Workshop Presentations}
+% \normalsize
+% \begin{itemize}
+% \item {\bf ScalaDyno: Making Name Resolution and Type Checking Fault-Tolerant} \cftdotfill 01\\
+% C\'{e}dric Bastin, Vlad Ureche, Martin Odersky {\em (EPFL)}
+% \item {\bf Accelerating Parser Combinators with Macros} \cftdotfill 07\\
+% Eric B\'{e}guet, Manohar Jonnalagedda {\em (EPFL)}
+% \item {\bf MorphScala: Safe Class Morphing with Macros} \cftdotfill 018\\
+% Aggelos Biboudis {\em (University of Athens)} and Eugene Burmako {\em (EPFL)}
+% \item {\bf Typecasting Actors: from Akka to TAkka} \cftdotfill 023\\
+% Jiansen He, Philip Wadler {\em (University of Edinburgh)}, Philip Trinder {\em (University of Glasgow)}
+% \item {\bf Type-Directed Language Extension for Effectful Computations} \cftdotfill 035\\
+% Evgenii Kotelnikov {\em (Chalmers University of Technology)}
+% \item {\bf SciFe: Scala Framework for Efficient Enumeration of Data Structures w/ Invariants} \cftdotfill 045\\
+% Ivan Kuraj, Viktor Kuncak {\em (EPFL)}
+% \item {\bf Containers and Aggregates, Mutators and Isolates for Reactive Programming} \cftdotfill 051\\
+% Aleksandar Prokopec {\em(EPFL)}, Philipp Haller {\em(Typesafe, Inc.)}, Martin Odersky {\em(EPFL)}
+% \item {\bf Real-Time Collaborative Scala Development with Clide} \cftdotfill 063\\
+% Martin Ring {\em(DFKI)}, Christoph L\"{u}th {\em(DFKI, Universit\"{a}t Bremen)}
+% \end{itemize}
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
