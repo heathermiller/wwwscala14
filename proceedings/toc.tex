@@ -1,22 +1,32 @@
-\documentclass[a4paper]{scrartcl}
+% \documentclass[a4paper]{memoir}
+\documentclass[10pt]{book}
 
 \usepackage{xspace}
 \usepackage{graphicx}
 \usepackage[normalem]{ulem} % \emph should italicize, not underline
 \usepackage{microtype}
+\usepackage{tocloft}
+\usepackage{times}
+
+\usepackage{etoolbox}% http://ctan.org/pkg/etoolbox
+\makeatletter
+% \patchcmd{<cmd>}{<search>}{<replace>}{<success>}{<failure>}
+\patchcmd{\@makechapterhead}{\huge}{\large}{}{}% for \chapter
+\patchcmd{\@makechapterhead}{\Huge}{\large}{}{}% for \chapter
+\patchcmd{\@makeschapterhead}{\Huge}{\large}{}{}% for \chapter*
+\makeatother
 
 \usepackage[margin={1.5in,1in}]{geometry}
 
-\title{Scala'13\\ Table of Contents}
-\subtitle{4th Workshop on Scala\\
-  with ECOOP'13, July 2nd 2013, Montpellier, France}
+\title{}
+% \subtitle{4th Workshop on Scala with ECOOP'13, July 2nd 2013, Montpellier, France}
 
 \date{}
 
-\newcommand{\papertitle}[1]{\noindent \emph{#1}\\}
+\newcommand{\papertitle}[2]{\noindent \textbf{#1} \dots #2\\}
 \newcommand{\paperauthor}[1]{by #1\\[2em]}
 
-\renewcommand*{\titlepagestyle}{empty}
+% \renewcommand*{\titlepagestyle}{empty}
 
 \pagestyle{empty}
 \usepackage{hyperref}
@@ -32,43 +42,35 @@
 \begin{document}
 \thispagestyle{empty}
 
-\maketitle
+% \maketitle
 
-\papertitle{An Overview of the Leon Verification System}
-\paperauthor{R\'{e}gis Blanc, Etienne Kneuss, Viktor Kuncak, and Philippe Suter}
+{\centering \LARGE \bf Table of Contents\par}
 
-\papertitle{CafeSat: A Modern SAT Solver for Scala}
-\paperauthor{R\'{e}gis Blanc}
+\vspace{0.5cm}
+\large \textbf{Scala 2014 Organization} \cftdotfill 0 vi
+\normalsize
 
-\papertitle{Scala Macros: Let Our Powers Combine!}
-\paperauthor{Eugene Burmako}
-
-\papertitle{A New Concurrency Model for Scala Based on a Declarative Dataflow Core}
-\paperauthor{S\'{e}bastien Doeraene and Peter Van Roy}
-
-\papertitle{GADTs and Declaration-site Variance: A Problem Statement}
-\paperauthor{Paolo Giarrusso}
-
-\papertitle{Towards a Tight Integration of a Functional Web Client Language into Scala}
-\paperauthor{Christoph H\"{u}ger and Martin Zuber}
-
-\papertitle{Parsing Graphs: Applying Parser Combinators to Graph Traversals}
-\paperauthor{Daniel Kr\"{o}ni and Raphael Schweizer}
-
-\papertitle{Scalad: An Interactive Type-level Debugger}
-\paperauthor{Hubert Plociniczak}
-
-\papertitle{An Experimental Study of the Influence of Dynamic Compiler Optimizations on Scala Performance}
-\paperauthor{Lukas Stadler, Gilles Duboscq, Hanspeter M\"{o}ssenb\"{o}ck, Thomas Wuerthinger, and Doug Simon}
-
-\papertitle{Bridging Islands of Specialized Code using Macros and Reified Types}
-\paperauthor{Nicolas Stucki and Vlad Ureche}
-
-\papertitle{What are the Odds? -- Probabilistic Programming in Scala}
-\paperauthor{Sandro Stucki, Nada Amin, Manohar Jonnalagedda, and Tiark Rompf}
-
-\papertitle{Dataflow Constructs for a Language Extension Based on the Algebra of Communicating Processes}
-\paperauthor{Andr\'{e} Van Delft}
+\vspace{0.5cm}
+\large \textbf{Workshop Presentations}
+\normalsize
+\begin{itemize}
+\item {\bf ScalaDyno: Making Name Resolution and Type Checking Fault-Tolerant} \cftdotfill 01\\
+C\'{e}dric Bastin, Vlad Ureche, Martin Odersky {\em (EPFL)}
+\item {\bf Accelerating Parser Combinators with Macros} \cftdotfill 07\\
+Eric B\'{e}guet, Manohar Jonnalagedda {\em (EPFL)}
+\item {\bf MorphScala: Safe Class Morphing with Macros} \cftdotfill 018\\
+Aggelos Biboudis {\em (University of Athens)} and Eugene Burmako {\em (EPFL)}
+\item {\bf Typecasting Actors: from Akka to TAkka} \cftdotfill 023\\
+Jiansen He, Philip Wadler {\em (University of Edinburgh)}, Philip Trinder {\em (University of Glasgow)}
+\item {\bf Type-Directed Language Extension for Effectful Computations} \cftdotfill 035\\
+Evgenii Kotelnikov {\em (Chalmers University of Technology)}
+\item {\bf SciFe: Scala Framework for Efficient Enumeration of Data Structures with Invariants} \cftdotfill 045\\
+Ivan Kuraj, Viktor Kuncak {\em (Ivan Kuraj, Viktor Kuncak (EPFL))}
+\item {\bf Containers and Aggregates, Mutators and Isolates for Reactive Programming} \cftdotfill 051\\
+Aleksandar Prokopec {\em(EPFL)}, Philipp Haller {\em(Typesafe, Inc.)}, Martin Odersky {\em(EPFL)}
+\item {\bf Real-Time Collaborative Scala Development with Clide} \cftdotfill 063\\
+Martin Ring {\em(DFKI)}, Christoph L\"{u}th {\em(DFKI, Universit\"{a}t Bremen)}
+\end{itemize}
 
 \end{document}
 
