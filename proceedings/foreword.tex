@@ -1,0 +1,120 @@
+% \documentclass[a4paper]{memoir}
+\documentclass[10pt]{book}
+
+\usepackage{xspace}
+\usepackage{graphicx}
+\usepackage[normalem]{ulem} % \emph should italicize, not underline
+\usepackage{microtype}
+\usepackage{tocloft}
+\usepackage{times}
+
+\usepackage{etoolbox}% http://ctan.org/pkg/etoolbox
+\makeatletter
+% \patchcmd{<cmd>}{<search>}{<replace>}{<success>}{<failure>}
+\patchcmd{\@makechapterhead}{\huge}{\large}{}{}% for \chapter
+\patchcmd{\@makechapterhead}{\Huge}{\large}{}{}% for \chapter
+\patchcmd{\@makeschapterhead}{\Huge}{\large}{}{}% for \chapter*
+\makeatother
+
+\usepackage[margin={1.5in,1in}]{geometry}
+
+\title{}
+% \subtitle{4th Workshop on Scala with ECOOP'13, July 2nd 2013, Montpellier, France}
+
+\date{}
+
+\newcommand{\papertitle}[2]{\noindent \textbf{#1} \dots #2\\}
+\newcommand{\paperauthor}[1]{by #1\\[2em]}
+
+% \renewcommand*{\titlepagestyle}{empty}
+
+\pagestyle{empty}
+\usepackage{hyperref}
+\hypersetup{
+   a4paper,
+   colorlinks,
+   urlcolor=blue,
+   citecolor=blue,
+   linkcolor=blue,
+   pdfauthor = {Damien Cassou},
+}
+
+\begin{document}
+\thispagestyle{empty}
+
+% \maketitle
+
+{\centering \LARGE \bf Chairs' Welcome\par}
+
+\vspace{0.5cm}
+\normalsize
+
+\noindent
+It is our great pleasure to welcome you to the Scala Workshop 2014. The
+meeting follows in the tradition of 4 previous Scala Workshops. The Scala
+Workshop 2014 is co-located with the 28th edition of the European Conference
+on Object-Oriented Programming (ECOOP).
+\\
+
+\noindent
+Scala is a general-purpose programming language designed to express common
+programming patterns in a concise, elegant, and type-safe way. It smoothly
+integrates features of object-oriented and functional languages. The Scala
+Workshop is a forum for researchers and practitioners to share new ideas and
+results of interest to the Scala community.
+\\
+
+\noindent
+This edition embraces elements of the format introduced with the 2013 edition,
+such as academic student talks, which are not accompanied by papers. Student
+talks are about 5-10 minutes long, presenting ongoing or completed research
+related to Scala. The 2014 edition of the Scala Workshop further innovates on
+the format by introducing a new category of ``Open Source Talks.'' These are
+short talks about open-source projects using Scala presented by contributors
+to these projects. Like student talks, open source talks are not accompanied
+by papers.
+\\
+
+\noindent
+This year's call for papers attracted 14 submissions of regular research
+papers. Each of the papers was reviewed by at least 3 Program Committee
+members. During a week-long electronic meeting, the Program Committee selected
+9 papers for publication in these proceedings and for presentation at the
+workshop. In addition, the committee accepted 2 papers exclusively for
+presentation. Furthermore, the call for papers attracted 9 submissions of
+student talks. The organizers selected 7 student talks for presentation at the
+workshop.
+\\
+
+\noindent
+Finally, the program includes a panel discussion of international experts on
+``Scala and Next-Generation Languages: Language Design for Mainstream Software
+Engineering.''
+\\
+
+\noindent
+Many people have helped make the Scala Workshop 2014 a reality. We would like
+to thank all the authors of the submitted papers, and the Program Committee
+for their reviews, thoughtful discussion, and helpful feedback to the authors.
+We are very grateful for the fruitful collaboration with ECOOP. Special thanks
+go to Tobias Wrigstad, the ECOOP Organizing Chair, and to Nate Nystrom, the
+ECOOP Workshop Chair. Tobias helped us organize our sponsorship program and
+our student grant scheme, both of which were exceptionally successful this
+year. Nate helped us with the rest of the workshop organization, including
+these workshop proceedings. The EasyChair conference management system enabled
+the reviewing  process. Finally, thanks to Typesafe, SoundCloud, Goldman
+Sachs, and innoQ for sponsoring the workshop.
+\\
+
+\begin{tabular}{ll}
+{\bf Heather Miller}              & {\bf Philipp Haller}\\
+{\em Scala 2014 Program Co-Chair} & {\em Scala 2014 Program Co-Chair}\\
+{\em EPFL, Switzerland}           & {\em Typesafe Inc., Switzerland}\\
+\end{tabular}
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
