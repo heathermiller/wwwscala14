@@ -1,0 +1,89 @@
+% \documentclass[a4paper]{memoir}
+\documentclass[10pt]{book}
+
+\usepackage{xspace}
+\usepackage{graphicx}
+\usepackage[normalem]{ulem} % \emph should italicize, not underline
+\usepackage{microtype}
+\usepackage{tocloft}
+\usepackage{times}
+
+\usepackage{etoolbox}% http://ctan.org/pkg/etoolbox
+\makeatletter
+% \patchcmd{<cmd>}{<search>}{<replace>}{<success>}{<failure>}
+\patchcmd{\@makechapterhead}{\huge}{\large}{}{}% for \chapter
+\patchcmd{\@makechapterhead}{\Huge}{\large}{}{}% for \chapter
+\patchcmd{\@makeschapterhead}{\Huge}{\large}{}{}% for \chapter*
+\makeatother
+
+\usepackage[margin={1.5in,1in}]{geometry}
+
+\title{}
+% \subtitle{4th Workshop on Scala with ECOOP'13, July 2nd 2013, Montpellier, France}
+
+\date{}
+
+\newcommand{\papertitle}[2]{\noindent \textbf{#1} \dots #2\\}
+\newcommand{\paperauthor}[1]{by #1\\[2em]}
+
+% \renewcommand*{\titlepagestyle}{empty}
+
+\pagestyle{empty}
+\usepackage{hyperref}
+\hypersetup{
+   a4paper,
+   colorlinks,
+   urlcolor=blue,
+   citecolor=blue,
+   linkcolor=blue,
+   pdfauthor = {Damien Cassou},
+}
+
+\begin{document}
+\thispagestyle{empty}
+
+% \maketitle
+
+{\centering \LARGE \bf Scala'14\par}
+
+\vspace{0.5cm}
+\large \textbf{Proceedings of the 2014 Workshop on Scala}
+
+\vspace{0.5cm}
+\normalsize
+\textbf{Co-located with:} {\large ECOOP'14}
+
+\vspace{0.5cm}
+\normalsize
+\textbf{In Cooperation With:} {\large ACM SIGPLAN-SIGSOFT}
+
+\vspace{0.5cm}
+\normalsize
+\textbf{July 28--29, 2014}
+
+\textbf{Uppsala, Sweden}
+
+\vspace{0.5cm}
+\normalsize
+\noindent
+\textbf{Abstract:}
+
+\noindent
+Scala is a general-purpose programming language designed to express common
+programming patterns in a concise, elegant, and type-safe way. It smoothly
+integrates features of object-oriented and functional languages. The Scala
+Workshop is a forum for researchers and practitioners to share new ideas and
+results of interest to the Scala community.
+
+
+\newpage
+\thispagestyle{empty}
+
+\large \textbf{[ACM Copyright Page]}
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
