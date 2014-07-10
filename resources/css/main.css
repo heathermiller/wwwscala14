@@ -475,6 +475,11 @@ ul > li > strong {
   text-align: center;
 }
 
+.centered-div {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .contact {
   margin-top: 20px;
   color: #fff;
@@ -508,6 +513,26 @@ ul > li > strong {
   font-size: 32px;
   /*color: #fff;*/
   color: #073642;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.white-text {
+  font-family: "petala-pro",sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 32px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.red-text {
+  font-family: "petala-pro",sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 32px;
+  color: #E74C3C;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -761,6 +786,17 @@ a.btn-outline {
   font-size: 24px;
 }
 
+.keynote-info {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "petala-pro",sans-serif;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 22px;
+  color: rgba(149, 165, 166, 1);
+  line-height: 0.6em;
+}
+
 .pc-wrap {
   width: 99%;
   position: relative;
@@ -854,6 +890,28 @@ a.btn-outline {
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
   .circular.doug {
     background-image: url('{{ site.baseurl }}/resources/img/doug@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.edwin {
+  background-image: url('{{ site.baseurl }}/resources/img/edwin.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.edwin {
+    background-image: url('{{ site.baseurl }}/resources/img/edwin@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.mark {
+  background-image: url('{{ site.baseurl }}/resources/img/mark.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.mark {
+    background-image: url('{{ site.baseurl }}/resources/img/mark@2x.png');
     background-size: 125px 125px;
   }
 }
