@@ -378,8 +378,6 @@ ul > li > strong {
 .transp-blue {
   background-color: rgba(19, 63, 75, 0.2);
   min-height: 30px;
-  padding-top: 10px;
-  padding-bottom: 16px;
 }
 
 .transp-blue-arrow {
@@ -788,15 +786,22 @@ a.btn-outline {
   font-size: 24px;
 }
 
-.keynote-info {
-  margin-left: auto;
-  margin-right: auto;
-  font-family: "petala-pro",sans-serif;
-  font-style: italic;
+.keynote-wrap {
+  width: 800px;
+}
+
+.keynote-university {
+  color: #fff;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 0.9em;
+}
+
+.keynote-blurb {
+  color: #fff;
   font-weight: 100;
   font-size: 22px;
-  color: rgba(149, 165, 166, 1);
-  line-height: 0.6em;
+  line-height: 0.9em;
 }
 
 .pc-wrap {
@@ -1001,60 +1006,4 @@ a.btn-outline {
 
 }
 
-.times, .thin, .thin a, .thin a:hover {
-  font-family: "petala-pro",sans-serif;
-  font-weight: 100;
-  color: #333;
-}
-
-.thin a {
-  border-bottom: 1px solid #333;
-}
-
-.lines {
-  border-top: 2px solid rgba(19, 63, 75, 0.2);
-  border-bottom: 2px solid rgba(19, 63, 75, 0.2);
-}
-
-.line {
-  border-bottom: 2px solid rgba(19, 63, 75, 0.2);
-}
-
-.transp-blue {
-  background-color: rgba(19, 63, 75, 0.2);
-}
-
-.keynote-title {
-  font-family: "petala-pro",sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 28px;
-  line-height: 1em;
-}
-
-.keynote-speaker {
-  font-family: "petala-pro",sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 1em;
-}
-
-.talk-header {
-  font-size: 22px;
-}
-
-.talk {
-  padding-bottom: 12px;
-}
-
-.talk-title {
-  font-family: "petala-pro",sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 22px;
-  line-height: 1.1em;
-}
-
-.dark {
-  color: #333;
-}
+.announcement
