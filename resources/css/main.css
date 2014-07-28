@@ -788,7 +788,7 @@ a.btn-outline {
   font-size: 24px;
 }
 
-.keynote-info {
+.keynote-info, .author-info {
   margin-left: auto;
   margin-right: auto;
   font-family: "petala-pro",sans-serif;
@@ -1057,4 +1057,22 @@ a.btn-outline {
 
 .dark {
   color: #333;
+}
+
+.paper-title > a {
+  font-size: 24px;
+  border: 0px;
+}
+
+.paper-title > a:hover {
+  text-decoration: none;
+  color: #E74C3C;
+}
+
+.paper {
+  margin-bottom: 32px;
+}
+
+.papers {
+  margin-bottom: 48px;
 }
