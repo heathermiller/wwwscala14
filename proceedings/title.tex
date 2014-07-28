@@ -7,6 +7,9 @@
 \usepackage{microtype}
 \usepackage{tocloft}
 \usepackage{times}
+\usepackage{textcomp}
+\usepackage{tikz}
+\usepackage{fontspec}
 
 \usepackage{etoolbox}% http://ctan.org/pkg/etoolbox
 \makeatletter
@@ -18,6 +21,10 @@
 
 \usepackage[margin={1.5in,1in}]{geometry}
 
+\setromanfont{Times New Roman}
+\setsansfont{Helvetica}
+\setmonofont{Courier New}
+
 \title{}
 % \subtitle{4th Workshop on Scala with ECOOP'13, July 2nd 2013, Montpellier, France}
 
@@ -27,6 +34,8 @@
 \newcommand{\paperauthor}[1]{by #1\\[2em]}
 
 % \renewcommand*{\titlepagestyle}{empty}
+
+\newcommand{\HRule}[1]{\hfill \rule{0.3\linewidth}{#1}} % Horizontal rule at the bottom of the page, adjust width here
 
 \pagestyle{empty}
 \usepackage{hyperref}
@@ -39,47 +48,163 @@
    pdfauthor = {Damien Cassou},
 }
 
+%\setlength{\oddsidemargin}{0mm} % Adjust margins to center the colored title box
+%\setlength{\evensidemargin}{0mm} % Margins on even pages - only necessary if adding more content to this template
+
+%\setlength{\hoffset}{-1in}
+
 \begin{document}
 \thispagestyle{empty}
+%\newgeometry{left=0cm,right=0cm,top=0cm,bottom=0cm}
 
 % \maketitle
 
-{\centering \LARGE \bf Scala'14\par}
+{\centering \large \sffamily
+\hfill July 28 - 29, 2014 \\
+\hfill Uppsala, Sweden}
 
-\vspace{0.5cm}
-\large \textbf{Proceedings of the 2014 Workshop on Scala}
+%\HRule{1pt}} % Horizontal line, thickness changed here
 
-\vspace{0.5cm}
-\normalsize
-\textbf{Co-located with:} {\large ECOOP'14}
 
-\vspace{0.5cm}
-\normalsize
-\textbf{In Cooperation With:} {\large ACM SIGPLAN-SIGSOFT}
 
-\vspace{0.5cm}
-\normalsize
-\textbf{July 28--29, 2014}
+\hbox to\hsize{\null}
 
-\textbf{Uppsala, Sweden}
 
-\vspace{0.5cm}
-\normalsize
+\vfill
+
+
+{\sffamily
+\Huge \noindent \textbf{SCALA'14} \\[1ex]
+\LARGE \textbf{Proceedings of the 5th Annual} \\[.5ex]
+\huge \textbf{Scala Workshop}}
+
+\vfill
+
+\vfill\vfill
+
+%\begin{Large}
+
+% {\sffamily
+% \noindent
+% \begin{tabular}{ll}
+% \textbf{Program Co-Chairs:} & Philipp Haller\\
+%                             & Heather Miller\\
+% \end{tabular}
+% }
+
+{\sffamily
+\large \noindent \textit{Editors and Program Co-Chairs:} \\[.3ex]
+\Large \textbf{Philipp Haller, Typesafe Switzerland} \\[.3ex]
+\Large \textbf{Heather Miller, EPFL, Switzerland}
+}
+
+%\end{Large}
+
+\vfill\vfill \vfill
+
+
+{\sffamily
 \noindent
-\textbf{Abstract:}
+\normalsize \textit{In cooperation with:} \\[.3ex]
+\Large \textbf{\textit{ACM SIGPLAN SIGSOFT}} \\[1ex]
+\normalsize \textit{Co-located with:} \\[.3ex]
+\Large \textbf{\textit{ECOOP'14}}
+}
 
-\noindent
-Scala is a general-purpose programming language designed to express common
-programming patterns in a concise, elegant, and type-safe way. It smoothly
-integrates features of object-oriented and functional languages. The Scala
-Workshop is a forum for researchers and practitioners to share new ideas and
-results of interest to the Scala community.
+
+\vfill\vfill
+
+% \begin{center}
+
+%  Organized by the Stanford Linear Accelerator Center \\[2ex]
+
+% Sponsored by the International Union of Pure and Applied Physics, \\
+% the US National Science Foundation,   
+% the US Department of Energy,\\
+%  and Stanford University
+
+
+% \end{center}
+
+% {\centering \LARGE \bf Scala'14\par}
+
+% \vspace{0.5cm}
+% \large \textbf{Proceedings of the 2014 Workshop on Scala}
+
+% \vspace{0.5cm}
+% \normalsize
+% \textbf{Co-located with:} {\large ECOOP'14}
+
+% \vspace{0.5cm}
+% \normalsize
+% \textbf{In Cooperation With:} {\large ACM SIGPLAN-SIGSOFT}
+
+% \vspace{0.5cm}
+% \normalsize
+% \textbf{July 28--29, 2014}
+
+% \textbf{Uppsala, Sweden}
+
+% \vspace{0.5cm}
+% \normalsize
+% \noindent
+% \textbf{Abstract:}
+
+% \noindent
+% Scala is a general-purpose programming language designed to express common
+% programming patterns in a concise, elegant, and type-safe way. It smoothly
+% integrates features of object-oriented and functional languages. The Scala
+% Workshop is a forum for researchers and practitioners to share new ideas and
+% results of interest to the Scala community.
 
 
 \newpage
+\restoregeometry
 \thispagestyle{empty}
 
-\large \textbf{[ACM Copyright Page]}
+\normalsize
+
+\noindent \large \textbf{The Association for Computing Machinery}
+
+\noindent \normalsize \textbf{2 Penn Plaza, Suite 701}
+
+\noindent \textbf{New York, New York 10121-0701}
+
+\vspace{.4cm}
+
+\noindent Copyright \textcopyright ~2014 by the Association for Computing
+Machinery, Inc. Permission to make digital or hard copies of part or all of
+this work for personal or classroom use is granted without fee provided that
+copies are not made or distributed for profit or commercial advantage and that
+copies bear this notice and the full citation on the first page. Copyrights
+for components of this work owned by others than ACM must be honored.
+Abstracting with credit is permitted. To copy otherwise, to republish, to
+post on servers, or to redistribute to lists, requires prior specific
+permission and/or a fee. Request permissions from Publications Dept., ACM,
+Inc., fax +1 (212) 869-0481, or permissions@acm.org.
+
+\vspace{.2cm}
+
+\noindent For other copying of articles that carry a code at the bottom of the first or
+last page, copying is permitted provided that the per-copy fee indicated in
+the code is paid through the Copyright Clearance Center, 222 Rosewood Drive,
+Danvers, MA 01923, +1-978-750-8400, +1-978-750-4470 (fax).
+
+\vspace{.4cm}
+
+\noindent \textbf{Notice to Past Authors of ACM-Published Articles}
+
+\noindent ACM intends to create a complete electronic archive of all articles and/or
+other material previously published by ACM. If you have written a work that
+was previously published by ACM in any journal or conference proceedings prior
+to 1978, or any SIG Newsletter at any time, and you do NOT want this work to
+appear in the ACM Digital Library, please inform permissions@acm.org, stating
+the title of the work, the author(s), and where and when published.
+
+\vspace{.4cm}
+
+\noindent \large \textbf{ISBN:}~978-1-4503-2868-5
+
 
 \end{document}
 
